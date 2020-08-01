@@ -3,6 +3,32 @@
 <head> <!--Contains meta data about HTML-->
 	<meta charset="utf-8"> <!--character type-->
 	<title> My name is Akbarbek. It is my webpage from Coursera.</title>
+	<style> 
+		h2, h1 {
+			color: blue;
+			text-align: center;
+		}
+		.highlight {
+			font-style: italic;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		#important {
+			font-style: inherit;
+			font-size: 20px;
+			background: blue;
+		}
+		article div {
+			font-size: 20px;
+		}
+		h1:hover, h1:active { /*these are pseudo-selectors*/
+			color: red;
+			background-color: blue;
+			cursor: pointer;
+		}
+
+	</style>
+
 </head>
 <body>
 	<header>
@@ -21,16 +47,16 @@
     <h2>Section-1</h2>
     <article>Article 1</article>
     <article>Article 2</article>
-    <article>Entity references: &nbsp; &lt; &gt; &amp; &copy; &quot;(Safeguard against more limited character encoding).</article>
+    <article class="highlight">Entity references: &nbsp; &lt; &gt; &amp; &copy; &quot;(Safeguard against more limited character encoding).</article>
     <div>SPAN tag can be located in the DIV tag. <span>SPAN tag can be located in an any line. It do not require any space.</span></div>
-	<span>DIV tag can't be located in the SPAN tag. DIV tag requires its own&nbsp;space&nbsp;(own&nbsp;line).</span>
+	<span id="important">DIV tag can't be located in the SPAN tag. DIV tag requires its own&nbsp;space&nbsp;(own&nbsp;line).</span>
   </section>
   <section id="Section-2">
     <h2>Section-2</h2>
-    <article>Always escape using some character that browser will take as the start of the tag. Instead of (<) use (&lt;). Instead of (>) use (&gt;). Instead of (&) use (&amp;). </article>
+    <article class="highlight">Always escape using some character that browser will take as the start of the tag. Instead of (<) use (&lt;). Instead of (>) use (&gt;). Instead of (&) use (&amp;). </article>
     <article>Article 5</article>
     <article>Article 6</article>
-    <div>Regular DIV element</div>
+    <article><div>Regular DIV element</div></article>
     <div>
     	<h3>Lists</h3>
     	<ol>
