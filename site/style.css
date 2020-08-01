@@ -1,0 +1,22 @@
+h2, h1 {
+	color: blue;
+    text-align: center;
+}
+.highlight {
+	font-style: italic;
+	font-size: 15px;
+	font-weight: bold;
+}
+#important {
+	font-style: inherit;
+	font-size: 20px;
+	background: blue;
+}
+article div {
+	font-size: 20px;
+}
+h1:hover, h1:active { /*these are pseudo-selectors*/
+	color: red;
+	background-color: blue;
+	cursor: pointer;
+}
