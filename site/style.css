@@ -1,3 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-size: 120%;
+}
 h2, h1 {
 	color: blue;
     text-align: center;
@@ -19,4 +25,69 @@ h1:hover, h1:active { /*these are pseudo-selectors*/
 	color: red;
 	background-color: blue;
 	cursor: pointer;
+
 }
+.style {
+	font-family: "Comic Sans MS", Gadget, sans-serif;
+	color: #0000ff;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px; 
+	text-transform: lowercase;
+	color: ;
+}
+#box{
+	background-color: blue;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid black;
+	margin: 50px;
+	width: 350px;
+	height: 400px;
+	overflow: auto;
+}
+#content {
+	background-color: #90EE90; /*green*/
+}
+#background {
+	width: 500px;
+	height: 500px;
+	border: 10px solid black;
+	background: url(https://www.boylesoftware.com/blog/wp-content/uploads/2014/07/280x250_css3_logo.jpg) 
+	no-repeat right top;
+
+}
+
+#Lec21 {
+	background-color: #000FFF;
+	position: relative;
+	top: 60px;
+}
+#p1, #p2, #p3, #p4 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+
+
+}
+#p1 {
+	background-color: #A52A2A;
+	position: relative;
+	top: 65px;
+	left: 65px;
+}
+#p2 {
+	background-color: #DEB887;
+}
+#p3 {
+	background-color: #5F9EA0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#p4 {
+	background-color: #FF7F50;
+}
+
