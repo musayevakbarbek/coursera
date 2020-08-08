@@ -1,18 +1,21 @@
 body {
-	font-size: 13px;
-	color: #fff;
-	background-color: #61122f;
+	font-size: 16px;
+	background: url(https://www.mapfreglobalrisks.com/gerencia-riesgos-seguros/wp-content/uploads/2019/07/energia-de-fusion933x526.jpg) no-repeat fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 	font-family: 'Oxygen', sans-serif;
 }
 .navbar-brand {
 	padding-top: 25px;
+	color: #fff;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
-.navbar-brand h1 { 
+.navbar-brand h1 {
+	color: #fff; 
 	font-family: 'Lora', serif;
-	color: #557c3e;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -21,36 +24,43 @@ body {
 	line-height: .75;
 }
 #dropdown {
-	background-color: #f6b319;
+	background-color: #fff;
+}
+#nav-link {
+	color: #fff;
 }
 .navbar-brand p {
-	color: #000;
+	color: #fff;
 	text-transform: uppercase;
 	font-size: .7em;
 	margin-top: 15px;
 }
 #header-nav {
+	color: #fff; 
 	vertical-align: middle;
-	background-color: #f6b319;
 	border-radius: 0px;
+	background-color:rgba(51,51,255,0.25);
 }
-
+.navbar-toggler, .navbar-toggler-icon {
+	background-color: white;
+	border-color: white;
+}
 #logo-img {
 	vertical-align: middle;
 }
 
 #nav-list {
 	margin-top: 10px;
+	color: #fff;
 }
 #nav-list a {
-	color: #951C49;
 	text-align: center;
 }
 #nav-list a:hover {
-	background: #E7E7E7;
+	background: #50508b;
 }
 #nav-list a span {
-
+	color: #fff;
 	font-size: 1.5em;
 }
 #phone {
@@ -61,7 +71,6 @@ body {
 	padding-bottom: 0;
 }
 #phone div {
-	color: #557c3e;
 	text-align: right;
 	padding-right: 15px;
 }
