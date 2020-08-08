@@ -1,5 +1,5 @@
 body {
-	font-size: 16px;
+	font-size: 13px;
 	color: #fff;
 	background-color: #61122f;
 	font-family: 'Oxygen', sans-serif;
@@ -80,26 +80,20 @@ nav button {
 		margin: 5px 5px 5px 0;
 	}
 	.navbar-brand h1 {
-		font-size: 5vw;
+		font-size: 3.5vw;
 	}
 }
 /**************Medium***************/
 @media (min-width: 992px) and (max-width: 1199px) {
-	#logo-img {
-		background: url('../images/logo_medium.png') no-repeat;
-		width: 100px;
-		height: 100px;
-		margin: 5px 5px 5px 0;
-	}
 	.navbar-brand h1 {
-		font-size: 5vw;
+		font-size: 3.5vw;
 	}
 }
 /**************Small***************/
 @media (min-width: 768px) and (max-width: 991px) {
 	
 	.navbar-brand h1 {
-		font-size: 5vw;
+		font-size: 3.5vw;
 	}
 
 
