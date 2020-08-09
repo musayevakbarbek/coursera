@@ -1,8 +1,6 @@
 body {
 	font-size: 16px;
-	background: url(https://www.mapfreglobalrisks.com/gerencia-riesgos-seguros/wp-content/uploads/2019/07/energia-de-fusion933x526.jpg) no-repeat fixed;
-	background-position: center;
-  	background-repeat: no-repeat;
+	background-color: black;
   	background-size: cover;
 	font-family: 'Oxygen', sans-serif;
 }
@@ -107,8 +105,72 @@ nav button {
 
 
 }
-/**************Extra small***************/
-@media (max-width: 767px) {
 
+#imge {
+	width: 100%;
+	height: auto;
+	border: 2px solid white;
+	border-radius: 25px;
 }
+.jumbotron {
+	width: 100%;
+	background-size: cover;
+	background: url('../images/jumbotron.jpg') no-repeat;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+
+@media (max-width: 790px) {
+	.jumbotron {
+	padding-right: 1%;
+	padding-left: 1%;
+	}
+}
+
+#reactors, #resources, #map {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid white;
+	overflow: hidden;
+}
+#tiles>div {
+	padding-right: 3.5%;
+	padding-left: 3.5%;
+}
+
+#reactors:hover, #resources:hover, #map:hover, #imge:hover {
+	box-shadow: 0 1px 5px 1px white;
+}
+
+#reactors{
+	background: url('../images/reactors.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#resources{
+	background: url('../images/resources.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#map{
+	background: url('../images/map.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#reactors span, #resources span, #map span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: black;
+	color: white;
+	opacity: .8;
+}
+
 
