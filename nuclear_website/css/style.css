@@ -4,6 +4,10 @@ body {
   	background-size: cover;
 	font-family: 'Oxygen', sans-serif;
 }
+
+body>h1 {
+	color: white;
+}
 .navbar-brand {
 	padding-top: 25px;
 	color: #fff;
@@ -171,6 +175,10 @@ nav button {
 	background-color: black;
 	color: white;
 	opacity: .8;
+}
+
+#copyright {
+	color: white;
 }
 
 
