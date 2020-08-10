@@ -91,20 +91,20 @@ nav button {
 		margin: 5px 5px 5px 0;
 	}
 	.navbar-brand h1 {
-		font-size: 3.5vw;
+		font-size: 5vw;
 	}
 }
 /**************Medium***************/
 @media (min-width: 992px) and (max-width: 1199px) {
 	.navbar-brand h1 {
-		font-size: 3.5vw;
+		font-size: 5vw;
 	}
 }
 /**************Small***************/
 @media (min-width: 768px) and (max-width: 991px) {
 	
 	.navbar-brand h1 {
-		font-size: 3.5vw;
+		font-size: 5vw;
 	}
 
 
