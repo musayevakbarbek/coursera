@@ -1,0 +1,57 @@
+html {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Menu {
+    text-decoration-color: white;
+    position: fixed;
+    font-family: 'Algerian';
+    font-size: 3em;
+    background-color: transparent;
+    float: left;
+    width: 300px;
+    margin-top: 1.5cm;
+    
+}
+
+ul {
+    padding: 0.5cm;
+    list-style-type: none;
+}
+
+.a:link{
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: lightyellow;
+    -webkit-transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+#title {
+    font-family: 'Verdana';
+    color: white;
+    margin-left: 18cm;
+    font-size: 5em;
+    font-style: italic;
+}
+.interface {
+    list-style-type: none;
+    text-align: center;    
+    font-size: 5em;
+    margin-top: 1cm;
+    margin-left: 10cm;
+    width: 22cm;
+    height: 5cm;
+    background-color: white;
+}
+.interface:hover {
+    background-color: lightyellow;
+    -webkit-transform: scale(1.1);
+    transition: all 0.5s ease;
+
+}

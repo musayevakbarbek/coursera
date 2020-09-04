@@ -1,0 +1,11 @@
+section{
+    background-color:red;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+ul {
+    background-color: chartreuse;
+    float: left;
+    list-style-type: none;
+    width: 30px;
+}
